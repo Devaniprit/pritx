@@ -6,7 +6,7 @@ import forzaHorizon from "./assets/Forza Horizon.jpg";
 const games = [
   {
     title: "GTA V",
-    image: "/src/assets/Gta v.jpg",
+    image: gtaV,
     alt: "GTA V cover art",
     link: "https://www.rockstargames.com/V/",
     reverse: false,

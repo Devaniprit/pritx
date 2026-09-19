@@ -23,7 +23,7 @@ const games = [
   },
   {
     title: "Forza Horizon 6",
-    image: "/src/assets/Forza Horizon.jpg",
+    image: forzaHorizon,
     alt: "Forza Horizon 6 cover art",
     link: "https://forza.net/forzahorizon6",
     reverse: true,

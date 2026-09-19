@@ -1,5 +1,7 @@
 import "./App.css";
 import { useState } from "react";
+import gtaV from "./assets/Gta V.jpg";
+import forzaHorizon from "./assets/Forza Horizon.jpg";
 
 const games = [
   {

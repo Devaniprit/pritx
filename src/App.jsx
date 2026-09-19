@@ -2,6 +2,14 @@ import "./App.css";
 import { useState } from "react";
 import gtaV from "./assets/Gta V.jpg";
 import forzaHorizon from "./assets/Forza Horizon.jpg";
+import cod from "./assets/COD.jpg";
+import cyberpunk from "./assets/Cyberpunk.jpg";
+import godOfWar from "./assets/God Of War.jpg";
+import lastOfUs from "./assets/Last Of Us.jpg";
+import minecraft from "./assets/Minecraft.jpg";
+import rdr from "./assets/RDR.jpg";
+import residentEvil from "./assets/Resident evil.jpg";
+import spiderman from "./assets/Spiderman.jpg";
 
 const games = [
   {
@@ -25,14 +33,14 @@ const games = [
 ];
 
 const gallery = [
-  { src: "/src/assets/COD.jpg" },
-  { src: "/src/assets/Cyberpunk.jpg" },
-  { src: "/src/assets/God Of War.jpg" },
-  { src: "/src/assets/Last Of Us.jpg" },
-  { src: "/src/assets/Minecraft.jpg" },
-  { src: "/src/assets/RDR.jpg" },
-  { src: "/src/assets/Resident evil.jpg" },
-  { src: "/src/assets/Spiderman.jpg" },
+  { src: cod },
+  { src: cyberpunk },
+  { src: godOfWar },
+  { src: lastOfUs },
+  { src: minecraft },
+  { src: rdr },
+  { src: residentEvil },
+  { src: spiderman },
 ];
 
 const navLinks = [

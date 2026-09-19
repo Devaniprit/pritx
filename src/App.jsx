@@ -4,7 +4,7 @@ import { useState } from "react";
 const games = [
   {
     title: "GTA V",
-    image: "src/assets/Gta v.jpg",
+    image: "/src/assets/Gta v.jpg",
     alt: "GTA V cover art",
     link: "https://www.rockstargames.com/V/",
     reverse: false,
@@ -13,7 +13,7 @@ const games = [
   },
   {
     title: "Forza Horizon 6",
-    image: "src/assets/Forza Horizon.jpg",
+    image: "/src/assets/Forza Horizon.jpg",
     alt: "Forza Horizon 6 cover art",
     link: "https://forza.net/forzahorizon6",
     reverse: true,
@@ -23,14 +23,14 @@ const games = [
 ];
 
 const gallery = [
-  { src: "src/assets/COD.jpg" },
-  { src: "src/assets/Cyberpunk.jpg" },
-  { src: "src/assets/God Of War.jpg" },
-  { src: "src/assets/Last Of Us.jpg" },
-  { src: "src/assets/Minecraft.jpg" },
-  { src: "src/assets/RDR.jpg" },
-  { src: "src/assets/Resident evil.jpg" },
-  { src: "src/assets/Spiderman.jpg" },
+  { src: "/src/assets/COD.jpg" },
+  { src: "/src/assets/Cyberpunk.jpg" },
+  { src: "/src/assets/God Of War.jpg" },
+  { src: "/src/assets/Last Of Us.jpg" },
+  { src: "/src/assets/Minecraft.jpg" },
+  { src: "/src/assets/RDR.jpg" },
+  { src: "/src/assets/Resident evil.jpg" },
+  { src: "/src/assets/Spiderman.jpg" },
 ];
 
 const navLinks = [

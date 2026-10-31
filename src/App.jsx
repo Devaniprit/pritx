@@ -33,16 +33,15 @@ const games = [
 ];
 
 const gallery = [
-  { src: cod },
-  { src: cyberpunk },
-  { src: godOfWar },
-  { src: lastOfUs },
-  { src: minecraft },
-  { src: rdr },
-  { src: residentEvil },
-  { src: spiderman },
+  { src: cod, link: "https://www.callofduty.com/" },
+  { src: cyberpunk, link: "https://www.cyberpunk.net/" },
+  { src: godOfWar, link: "https://www.playstation.com/games/god-of-war/" },
+  { src: lastOfUs, link: "https://www.playstation.com/the-last-of-us/" },
+  { src: minecraft, link: "https://www.minecraft.net/" },
+  { src: rdr, link: "https://www.rockstargames.com/reddeadredemption2" },
+  { src: residentEvil, link: "https://www.residentevil.com/" },
+  { src: spiderman, link: "https://www.playstation.com/games/marvels-spider-man-2/" },
 ];
-
 const navLinks = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },

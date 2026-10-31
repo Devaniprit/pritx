@@ -138,13 +138,24 @@ function PritxGaming() {
         </div>
       ))}
 
-      <div id="about" className="underline">
-        <div className="img_container">
-          {gallery.map((g, i) => (
-            <img key={i} src={g.src} alt={g.alt} className="game_image" />
-          ))}
-        </div>
-      </div>
+     <div id="about" className="underline">
+  <div className="img_container">
+    {gallery.map((g, i) => (
+      <a
+        key={i}
+        href={g.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={g.src}
+          alt={g.alt || "Game cover"}
+          className="game_image"
+        />
+      </a>
+    ))}
+  </div>
+</div>
 
       <div id="services" className="underline">
         <h1 className="game_title">Our Services</h1>
